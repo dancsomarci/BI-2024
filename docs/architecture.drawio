@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.0">
+  <diagram name="1 oldal" id="j86jmbt5h4aAgMbPU1DN">
+    <mxGraphModel dx="932" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IbPxfnIUsPPYPtYqmAaG-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="290.25" width="340" height="145.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IbPxfnIUsPPYPtYqmAaG-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Power_BI_Embedded.svg;" vertex="1" parent="1">
+          <mxGeometry x="550" y="326.5" width="51" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="IbPxfnIUsPPYPtYqmAaG-2" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="310" y="328" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IbPxfnIUsPPYPtYqmAaG-3" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="1">
+          <mxGeometry x="428" y="327" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="IbPxfnIUsPPYPtYqmAaG-4" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_SQL_Server_Stretch_Databases.svg;" vertex="1" parent="1">
+          <mxGeometry x="200" y="328" width="64" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="IbPxfnIUsPPYPtYqmAaG-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.969;exitY=0.462;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.005;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IbPxfnIUsPPYPtYqmAaG-4" target="IbPxfnIUsPPYPtYqmAaG-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="590" as="sourcePoint" />
+            <mxPoint x="280" y="361" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IbPxfnIUsPPYPtYqmAaG-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.994;exitY=0.483;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IbPxfnIUsPPYPtYqmAaG-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="390" as="sourcePoint" />
+            <mxPoint x="428" y="357" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IbPxfnIUsPPYPtYqmAaG-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.972;exitY=0.525;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.054;entryY=0.496;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IbPxfnIUsPPYPtYqmAaG-3" target="IbPxfnIUsPPYPtYqmAaG-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="368" y="367" as="sourcePoint" />
+            <mxPoint x="438" y="367" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IbPxfnIUsPPYPtYqmAaG-8" value="CSV" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.document;" vertex="1" parent="1">
+          <mxGeometry x="100" y="335.84999999999997" width="31" height="44.29" as="geometry" />
+        </mxCell>
+        <mxCell id="IbPxfnIUsPPYPtYqmAaG-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.061;exitY=0.556;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.021;entryY=0.495;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IbPxfnIUsPPYPtYqmAaG-8" target="IbPxfnIUsPPYPtYqmAaG-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="262" y="368" as="sourcePoint" />
+            <mxPoint x="320" y="367" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IbPxfnIUsPPYPtYqmAaG-11" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Azure_A.svg;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280.25" width="50" height="47.15" as="geometry" />
+        </mxCell>
+        <UserObject label="Blob Storage" placeholders="1" name="Variable" id="IbPxfnIUsPPYPtYqmAaG-12">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="192" y="394.5" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="ETL" placeholders="1" name="Variable" id="IbPxfnIUsPPYPtYqmAaG-13">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="304" y="394.5" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="SQL DB" placeholders="1" name="Variable" id="IbPxfnIUsPPYPtYqmAaG-14">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="414" y="394.5" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Dashboards" placeholders="1" name="Variable" id="IbPxfnIUsPPYPtYqmAaG-15">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="535.5" y="394.5" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
